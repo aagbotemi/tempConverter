@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: #f43ad6;
+    font-size: 1.55rem;
+    font-family: 'Playball', cursive;
+}
+
+.temperature h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+}
